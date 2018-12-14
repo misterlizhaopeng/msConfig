@@ -1,0 +1,15 @@
+﻿spring: 
+  profiles: 
+    active: 
+    - div
+---
+spring: 
+  profiles: dev   #开发环境
+  application: 
+    name: microservicecloud-config-lp-dev
+---
+spring: 
+  profiles: test   #测试环境
+  application: 
+    name: microservicecloud-config-lp-test
+#保存为utf-8格式
